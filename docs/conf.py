@@ -78,19 +78,6 @@ intersphinx_mapping = {
     'xarray': ('https://xarray.pydata.org/en/stable', None)
 }
 
-# -- MyST settings ---------------------------------------------------
-
-myst_enable_extensions = [
-    'colon_fence',
-    'deflist',
-    'dollarmath'
-]
-myst_number_code_blocks = ["typescript"]
-myst_heading_anchors = 2
-myst_footnote_transition = True
-myst_dmath_double_inline = True
-myst_enable_checkboxes = True
-
 # -- HTML output -------------------------------------------------
 
 html_theme = 'sphinx_rtd_theme'
